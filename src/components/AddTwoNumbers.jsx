@@ -16,7 +16,7 @@ const AddTwoNumbers = () => {
       <section className="bg-black shadow-[0_0_20px_#00FFFF32] rounded-2xl flex justify-center my-8 mx-4 p-6">
         <section className="bg-[#F9A159] lg:bg-[#111828] rounded-2xl px-3 pt-10 pb-12 w-[90vw]">
           <div className="grid grid-cols-1 lg:grid-rows-[auto] lg:grid-cols-[auto] place-items-center">
-            <div className="lg:bg-[url(../src/assets/icons/Adding2Numbers.png)] lg:bg-cover lg:bg-center lg:rounded-2xl lg:aspect-[12/7] lg:w-[480px] lg:h-[280px]">
+            <div className="lg:bg-[url(../public/assets/icons/Adding2Numbers.png)] lg:bg-cover lg:bg-center lg:rounded-2xl lg:aspect-[12/7] lg:w-[480px] lg:h-[280px]">
               <h1 className="text-center text-white text-xl lg:text-5xl lg:flex lg:items-center lg:justify-center lg:px-15 lg:min-h-full lg:backdrop-brightness-[0.25] lg:rounded-2xl mb-8">
                 Add 2 Numbers
               </h1>
