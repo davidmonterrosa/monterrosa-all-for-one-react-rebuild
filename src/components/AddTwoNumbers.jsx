@@ -41,7 +41,7 @@ const AddTwoNumbers = () => {
 
             <div className="lg:row-start-4 mt-12">
                 <Link to={"/"} >
-                    <button><img src="../src/assets/icons/Back To Home.png" alt="Back to home button" /></button>
+                    <button><img src="/assets/icons/Back To Home.png" alt="Back to home button" /></button>
                 </Link>
             </div>
 

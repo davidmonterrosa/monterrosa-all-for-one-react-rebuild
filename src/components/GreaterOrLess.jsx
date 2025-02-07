@@ -61,7 +61,7 @@ const GreaterOrLess = () => {
             <Link to={"/"}>
               <button>
                 <img
-                  src="../src/assets/icons/Back To Home.png"
+                  src="/assets/icons/Back To Home.png"
                   alt="Back to home button"
                 />
               </button>

@@ -197,7 +197,7 @@ const MadLib = () => {
           <div className="flex flex-col items-center mt-12">
             <Link to="/">
               <button>
-                <img src="../src/assets/icons/Back To Home.png" alt="Back to home button" />
+                <img src="/assets/icons/Back To Home.png" alt="Back to home button" />
               </button>
             </Link>
           </div>
