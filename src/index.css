@@ -5,7 +5,7 @@
 @layer base {
   @font-face {
     font-family: "Press_Start_2P";
-    src: url(./public/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+    src: url('./public/assets/fonts/Press_Start_2P/PressStart2P-Regular.ttf');
   }
 }
 
