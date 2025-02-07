@@ -17,7 +17,7 @@ const RestaurantPicker = () => {
               <h1 className="text-center text-white text-xl lg:text-5xl lg:flex lg:items-center lg:justify-center lg:px-15 lg:min-h-full lg:backdrop-brightness-[0.25] lg:rounded-2xl  mb-8">Restaurant Picker</h1>
             </div>
           </div>
-          <section className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-20 lg:mt-20 lg:mx-20 place-items-center lg:items-center">
+          <section className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-20 lg:mt-20 xl:mx-20 md:mx-10  place-items-center lg:items-center">
             <div className="flex flex-col items-center">
               <h1 className="text-white text-center text-xl mb-6">
                 Enter “Mexican”, “Asian”, or “Fast Food”

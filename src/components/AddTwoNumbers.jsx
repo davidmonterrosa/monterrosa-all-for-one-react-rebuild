@@ -26,7 +26,7 @@ const AddTwoNumbers = () => {
                 <h1 className="text-white text-center text-6xl my-4">+</h1>
                 <input type="text" placeholder="Second Number" onChange={(event) => setSecondNumberInput(event.target.value)} className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] w-full h-[50px] bg-[#3AB8CB]"/>
                 <h1 className="text-white text-center text-6xl my-4">=</h1>
-                <div className="bg-[#7C439B] text-white border-[3px] border-solid border-black rounded-2xl w-[275px] h-[125px] flex justify-center items-center">
+                <div className="bg-[#7C439B] text-white border-[3px] border-solid border-black rounded-2xl w-[275px] min-h-[125px] h-full flex justify-center items-center">
                     {
                         sum.length == 0 ? 
                         <p className="text-center text-2xl press-start-2p">Sum</p>

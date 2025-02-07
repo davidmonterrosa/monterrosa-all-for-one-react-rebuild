@@ -32,12 +32,12 @@ const GreaterOrLess = () => {
                 className="text-center press-start-2p rounded-2xl border-[3px] border-solid border-black max-w-[275px] h-[50px] placeholder:text-white text-white bg-[#F0804A] "
               />
             </div>
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-end">
               <input
                 type="text"
                 placeholder="Second Number"
                 onChange={(event) => setSecondNumberInput(event.target.value)}
-                className="text-center press-start-2p rounded-2xl border-[3px] border-solid border-black max-w-[275px] h-[50px] placeholder:text-white text-white bg-[#3AB8CB]"
+                className=" text-center press-start-2p rounded-2xl border-[3px] border-solid border-black max-w-[275px] h-[50px] placeholder:text-white text-white bg-[#3AB8CB]"
               />
             </div>
             <div className="place-self-center press-start-2p bg-[#7C439B] text-white border-[3px] border-solid  border-black rounded-2xl w-[275px] h-[200px] flex justify-center items-center ml-6.5 lg:ml-0">

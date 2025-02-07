@@ -19,7 +19,7 @@ const ReverseItAlphanumeric = () => {
               </h1>
             </div>
           </div>
-          <section className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-20 lg:items-center lg:mt-20 lg:mx-20 place-items-center">
+          <section className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-20 lg:items-center lg:mt-20 xl:mx-20 md:mx-10  place-items-center">
             <div className="flex flex-col items-center">
               <h1 className="text-white text-center text-xl mb-6">
                 Enter a string of letters and numbers below:
