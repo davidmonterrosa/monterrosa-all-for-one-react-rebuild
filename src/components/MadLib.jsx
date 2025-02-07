@@ -21,7 +21,7 @@ const MadLib = () => {
   return (
     <main className="bg-[#303030] flex justify-center">
       <section className="bg-black shadow-[0_0_20px_#00FFFF32] rounded-2xl flex justify-center my-8 mx-4 p-6">
-        <section className="bg-[#E64279] lg:bg-[#111828] rounded-2xl px-3 pt-10 pb-12">
+        <section className="bg-[#E64279] lg:bg-[#111828] rounded-2xl px-3 pt-10 pb-12 w-[90vw]">
           <div className="flex justify-center">
             <div className="lg:bg-[url(../src/assets/icons/MadLib.png)] lg:bg-cover lg:bg-center lg:rounded-2xl lg:aspect-[12/7] lg:w-[480px] lg:h-[280px]">
               <h1 className="text-center text-white text-xl lg:text-5xl lg:flex lg:items-center lg:justify-center lg:px-15 lg:min-h-full lg:backdrop-brightness-[0.25] lg:rounded-2xl  mb-8">
@@ -29,7 +29,7 @@ const MadLib = () => {
               </h1>
             </div>
           </div>
-          <section className="grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-5 lg:gap-x-7 lg:mt-20 lg:mx-4">
+          <section className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 lg:grid-rows-5 lg:gap-x-7 lg:mt-20 lg:mx-4 place-items-center">
             {/* Victim Name */}
             <div className="flex flex-col items-center my-5">
               <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
@@ -37,7 +37,7 @@ const MadLib = () => {
               </h1>
               <input
                 onChange={(event) => setVictimNameField(event.target.value) }
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#A96AAD]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#A96AAD]"
                 type="text"
                 placeholder="Name"
               />
@@ -50,7 +50,7 @@ const MadLib = () => {
               </h1>
               <input
                 onChange={(event) => setTaskNameField(event.target.value) }
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#8B3972]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#8B3972]"
                 type="text"
                 placeholder="Task Name"
               />
@@ -63,7 +63,7 @@ const MadLib = () => {
               </h1>
               <input
                 onChange={(event) => setRivalNameField(event.target.value) }
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#A96AAD]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#A96AAD]"
                 type="text"
                 placeholder="Rival"
               />
@@ -76,7 +76,7 @@ const MadLib = () => {
               </h1>
               <input
                 onChange={(event) => setAnimalCountField(event.target.value) }
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#8B3972]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#8B3972]"
                 type="text"
                 placeholder="###"
               />
@@ -89,59 +89,59 @@ const MadLib = () => {
               </h1>
               <input
                 onChange={(event) => setAdjectiveField(event.target.value) }
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#A96AAD]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#A96AAD]"
                 type="text"
                 placeholder="Adjective"
               />
             </div>
 
             {/* Animal */}
-            <div className="flex flex-col items-center my-5 xl:col-start-2 xl:row-start-1">
+            <div className="flex flex-col items-center my-5 lg:col-start-2 lg:row-start-1">
               <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Animal
               </h1>
               <input
                 onChange={(event) => setAnimalField(event.target.value)}
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#8B3972]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#8B3972]"
                 type="text"
                 placeholder="Animal"
               />
             </div>
 
             {/* Item */}
-            <div className="flex flex-col items-center my-5 xl:col-start-2 xl:row-start-2">
+            <div className="flex flex-col items-center my-5 lg:col-start-2 lg:row-start-2">
               <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Item
               </h1>
               <input
                 onChange={(event) => setItemField(event.target.value) }
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#A96AAD]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#A96AAD]"
                 type="text"
                 placeholder="Item"
               />
             </div>
 
             {/* Special Move */}
-            <div className="flex flex-col items-center my-5 xl:col-start-2 xl:row-start-3">
+            <div className="flex flex-col items-center my-5 lg:col-start-2 lg:row-start-3">
               <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Special Move Name
               </h1>
               <input
                 onChange={(event) => setSpecialMoveField(event.target.value) }
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#8B3972]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#8B3972]"
                 type="text"
                 placeholder="Special Move"
               />
             </div>
 
             {/* Number */}
-            <div className="flex flex-col items-center my-5 xl:col-start-2 xl:row-start-4">
+            <div className="flex flex-col items-center my-5 lg:col-start-2 lg:row-start-4">
               <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Number
               </h1>
               <input
                 onChange={(event) =>  setNumberField(event.target.value)}
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#A96AAD]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#A96AAD]"
                 type="text"
                 placeholder="###"
               />
@@ -154,7 +154,7 @@ const MadLib = () => {
               </h1>
               <input
                 onChange={(event) => setDistanceField(event.target.value) }
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#8B3972]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#8B3972]"
                 type="text"
                 placeholder="Distance"
               />
@@ -171,7 +171,7 @@ const MadLib = () => {
             </div>
 
             {/* Story Text */}
-            <div className="flex flex-col items-center press-start-2p bg-[#7C439B] text-white border-[3px] border-solid border-black rounded-2xl w-[275px] overflow-x-scroll lg:w-full lg:row-start-1 lg:col-start-3 lg:col-end-5 lg:row-span-4 result-story mt-5 ml-6.5 lg:ml-0 lg:mt-0">
+            <div className="flex flex-col items-center press-start-2p bg-[#7C439B] text-white border-[3px] border-solid border-black rounded-2xl max-w-[275px] md:max-w-xl overflow-x-scroll w-full h-full lg:row-start-1 lg:col-start-3 lg:col-end-5 lg:row-span-4  mt-5 ml-6.5 lg:ml-0 lg:mt-0">
                 {
                     storyResult.length == 0 ?
                     <p id="storyText" className="text-sm mx-2">

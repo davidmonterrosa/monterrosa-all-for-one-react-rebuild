@@ -12,7 +12,7 @@ const OddOrEven = () => {
   return (
     <main className="bg-[#303030] flex justify-center">
       <section className="bg-black shadow-[0_0_20px_#00FFFF32] rounded-2xl flex justify-center my-8 mx-4 p-6">
-        <section className="bg-[#DC4988] lg:bg-[#111828] rounded-2xl px-3 pt-10 pb-12">
+        <section className="bg-[#DC4988] lg:bg-[#111828] rounded-2xl px-3 pt-10 pb-12 w-[90vw]">
           <div className="flex justify-center">
             <div className="lg:bg-[url(../src/assets/icons/OddOrEven.png)] lg:bg-cover lg:bg-center lg:rounded-2xl lg:aspect-[12/7] lg:w-[480px] lg:h-[280px]">
               <h1 className="text-center text-white text-xl lg:text-5xl lg:flex lg:items-center lg:justify-center lg:px-15 lg:min-h-full lg:backdrop-brightness-[0.25] lg:rounded-2xl  mb-8">Odd Or Even</h1>
@@ -23,7 +23,7 @@ const OddOrEven = () => {
               <h1 className="text-white text-center text-xl mb-6">Enter a number below:</h1>
               <input
                 onChange={(event) => setNumberInput(event.target.value)}
-                className="text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] max-h-[50px] bg-[#3CA2C4]"
+                className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#3CA2C4]"
                 type="text"
                 placeholder="Number"
               />
@@ -42,7 +42,7 @@ const OddOrEven = () => {
               }
             </div>
 
-            <div className="flex flex-col items-center">
+            <div className="place-self-center">
               <button
                 onClick={fetchResult}
                 className="press-start-2p text-white border-[3px] border-solid border-black rounded-2xl w-[275px] h-[125px] text-2xl bg-[#407DBD]"              >
