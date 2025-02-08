@@ -32,7 +32,7 @@ const MadLib = () => {
           <section className="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 lg:grid-rows-5 lg:gap-x-7 lg:mt-20 lg:mx-4 place-items-center">
             {/* Victim Name */}
             <div className="flex flex-col items-center my-5">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Victim Name
               </h1>
               <input
@@ -45,7 +45,7 @@ const MadLib = () => {
 
             {/* Task Name */}
             <div className="flex flex-col items-center my-5">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Task Name
               </h1>
               <input
@@ -58,7 +58,7 @@ const MadLib = () => {
 
             {/* Rival Name */}
             <div className="flex flex-col items-center my-5">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Rival Name
               </h1>
               <input
@@ -71,7 +71,7 @@ const MadLib = () => {
 
             {/* Animal Count */}
             <div className="flex flex-col items-center my-5">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Animal Count
               </h1>
               <input
@@ -84,7 +84,7 @@ const MadLib = () => {
 
             {/* Adjective */}
             <div className="flex flex-col items-center my-5">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Adjective
               </h1>
               <input
@@ -97,7 +97,7 @@ const MadLib = () => {
 
             {/* Animal */}
             <div className="flex flex-col items-center my-5 lg:col-start-2 lg:row-start-1">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Animal
               </h1>
               <input
@@ -110,7 +110,7 @@ const MadLib = () => {
 
             {/* Item */}
             <div className="flex flex-col items-center my-5 lg:col-start-2 lg:row-start-2">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Item
               </h1>
               <input
@@ -123,7 +123,7 @@ const MadLib = () => {
 
             {/* Special Move */}
             <div className="flex flex-col items-center my-5 lg:col-start-2 lg:row-start-3">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Special Move Name
               </h1>
               <input
@@ -136,7 +136,7 @@ const MadLib = () => {
 
             {/* Number */}
             <div className="flex flex-col items-center my-5 lg:col-start-2 lg:row-start-4">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Number
               </h1>
               <input
@@ -149,7 +149,7 @@ const MadLib = () => {
 
             {/* Unit of Distance */}
             <div className="flex flex-col items-center justify-center my-5">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 Unit of Distance
               </h1>
               <input
