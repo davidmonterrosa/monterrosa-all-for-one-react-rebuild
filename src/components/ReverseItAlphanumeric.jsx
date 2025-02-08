@@ -13,7 +13,7 @@ const ReverseItAlphanumeric = () => {
       <section className="bg-black shadow-[0_0_20px_#00FFFF32] rounded-2xl flex justify-center my-8 mx-4 p-6">
         <section className="bg-[#DC4988] lg:bg-[#111828] rounded-2xl px-3 pt-10 pb-12 w-[90vw]">
           <div className="flex justify-center">
-            <div className="lg:bg-[url(../public/assets/icons/ReverseItAlphanumeric.png)] lg:bg-cover lg:bg-center lg:rounded-2xl lg:aspect-[12/7] lg:w-[480px] lg:h-[280px] ">
+            <div className="lg:bg-[url(../public/assets/icons/ReverseItAlphaNumeric.png)] lg:bg-cover lg:bg-center lg:rounded-2xl lg:aspect-[12/7] lg:w-[480px] lg:h-[280px] ">
               <h1 className="text-center text-white text-xl lg:text-4xl lg:flex lg:items-center lg:justify-center lg:px-15 lg:min-h-full lg:backdrop-brightness-[0.25] lg:rounded-2xl  mb-8">
                 Reverse It <br /> Alphanumeric
               </h1>
