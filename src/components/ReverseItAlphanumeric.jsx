@@ -32,14 +32,14 @@ const ReverseItAlphanumeric = () => {
               />
             </div>
 
-            <div className="flex flex-col items-center justify-center press-start-2p bg-[#F9914B] text-white border-[3px] border-solid border-black rounded-2xl w-[275px] h-[200px] ml-6.5 lg:ml-0">
+            <div className="flex flex-col items-center justify-center press-start-2p bg-[#F9914B] text-white border-[3px] border-solid border-black rounded-2xl w-full min-w-[275px] h-[200px] ml-6.5 lg:ml-0">
               {
                 result.length == 0 ?
-                <p id="resultText" className="text-center">
+                <p id="resultText" className="text-center break-words p-2 w-[98%]">
                   Results Go Here
                 </p>
                 :
-                <p id="resultText" className="text-center">
+                <p id="resultText" className="text-center break-words p-2 w-[98%]">
                   {result}
                 </p>
               }
@@ -48,7 +48,7 @@ const ReverseItAlphanumeric = () => {
             <div className="flex flex-col items-center">
               <button
                 onClick={fetchResult}
-                className="press-start-2p text-white border-[3px] border-solid border-black rounded-2xl w-[275px] h-[125px] text-2xl bg-[#7C439B]"              >
+                className="press-start-2p text-white border-[3px] border-solid border-black rounded-2xl w-[275px]  h-[125px] text-2xl bg-[#7C439B]"              >
                 Submit
               </button>
             </div>

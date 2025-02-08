@@ -33,9 +33,9 @@ const HelloWorld = () => {
             <div className="place-self-center press-start-2p bg-[#7C439B] text-white border-[3px] border-solid  border-black rounded-2xl w-[275px] h-[200px] flex justify-center items-center ml-6.5 lg:ml-0">
                 {
                     result.length == 0 ? 
-                    <p id="resultText" className="text-center text-white">Hello</p>
+                    <p id="resultText" className="text-center text-white hyphens-auto">Hello</p>
                     :
-                    <p id="resultText" className="text-center text-white">{result}</p>
+                    <p id="resultText" className="text-center text-white hyphens-auto">{result}</p>
                 }
             </div>
 

@@ -184,7 +184,7 @@ const MadLib = () => {
                         ab necessitatibus exercitationem? Animi, maxime sit.
                     </p>
                     :
-                    <p id="storyText" className="text-sm mx-2">
+                    <p id="storyText" className="text-sm mx-2 break-words m-2">
                         {storyResult}
                     </p>
 

@@ -18,7 +18,7 @@ const OddOrEven = () => {
               <h1 className="text-center text-white text-xl lg:text-5xl lg:flex lg:items-center lg:justify-center lg:px-15 lg:min-h-full lg:backdrop-brightness-[0.25] lg:rounded-2xl  mb-8">Odd Or Even</h1>
             </div>
           </div>
-          <section className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-20 lg:mt-20 xl:mx-20 md:mx-10 ">
+          <section className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:gap-x-20 lg:mt-20 xl:mx-20 md:mx-10 place-items-center">
             <div className="flex flex-col items-center">
               <h1 className="text-white text-center text-xl mb-6">Enter a number below:</h1>
               <input
@@ -29,14 +29,14 @@ const OddOrEven = () => {
               />
             </div>
 
-            <div className="flex flex-col justify-center items-center ml-6.5 lg:ml-0">
+            <div className="flex flex-col justify-center items-center ml-6.5 lg:ml-0 bg-[#F9914B] border-[3px] border-solid border-black rounded-2xl w-[275px] h-[200px]">
               {
                 result.length == 0 ?
-                <p id="resultText" className="text-white text-center press-start-2p bg-[#F9914B] border-[3px] border-solid border-black rounded-2xl w-[275px] h-[200px]">
+                <p id="resultText" className="text-white text-center press-start-2p ">
                   Results Go Here
                 </p>
                 :
-                <p id="resultText" className="text-white text-center press-start-2p bg-[#F9914B] border-[3px] border-solid border-black rounded-2xl w-[275px] h-[200px]">
+                <p id="resultText" className="text-white text-center press-start-2p ">
                   {result}
                 </p>
               }

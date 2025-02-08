@@ -48,11 +48,11 @@ const AskingQuestions = () => {
             </div>
             <div className="place-self-center bg-[#7C439B] text-white border-[3px] border-solid border-black rounded-2xl w-[275px] h-full flex justify-center items-center">
               {result.length == 0 ? (
-                <p className="text-center text-2xl press-start-2p">
+                <p className="text-center text-xl press-start-2p">
                   Your name is Name and you woke up at 8:00am!!!{" "}
                 </p>
               ) : (
-                <p className="text-center text-2xl press-start-2p">{result}</p>
+                <p className="text-center text-xl break-words press-start-2p">{result}</p>
               )}
             </div>
             <div className="place-self-center lg:col-start-2 xl:col-start-4">
