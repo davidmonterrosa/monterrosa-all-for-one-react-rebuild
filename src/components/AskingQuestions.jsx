@@ -23,7 +23,7 @@ const AskingQuestions = () => {
           </div>
           <section className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:grid-rows-2 xl:grid-rows-1 xl:grid-cols-4  lg:gap-x-8  lg:mt-20">
             <div className="flex flex-col items-center lg:mt-14">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 What is your Name?
               </h1>
 
@@ -36,7 +36,7 @@ const AskingQuestions = () => {
             </div>
 
             <div className="flex flex-col items-center lg:mt-14">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl">
                 When did ya wake up?
               </h1>
               <input

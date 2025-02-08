@@ -19,7 +19,7 @@ const Magic8Ball = () => {
           </div>
           <section className="grid grid-cols-1 gap-y-8 lg:grid-cols-3  lg:gap-x-10 xl:gap-x-20 lg:items-center lg:mt-20 lg:mx-12 place-items-center">
             <div className="flex flex-col items-center">
-              <h1 className="text-black text-center bg-[url(/src/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl mx-2">Ask a question!</h1>
+              <h1 className="text-black text-center bg-[url(/assets/icons/pixelatedTxtBubbleTemplate-removebg-preview.png)] bg-no-repeat bg-cover w-[275px] max-h-[95px] pb-[3.5rem] pt-[0.35rem] leading-6 text-xl mx-2">Ask a question!</h1>
               <input
                 onChange={(event) => setQuestionInput(event.target.value)}
                 className="text-center text-white placeholder:text-white  press-start-2p rounded-2xl border-[3px] border-black border-solid max-w-[275px] h-[50px] bg-[#45569D]"
