@@ -31,6 +31,9 @@ Create a single page pokemon application using the Pokemonapi
 ### Change Log
 + mm/dd/yyyy - DM - short description
 - 01/28/2025 - DM - Created git repository.
+Peer Reviewed By:karen cadavos
 
-Peer Reviewed By: Thao Vang
-> Comments: It looks like mostly everything is here. It is responsive. locals strorage works well. small things: favorite and reandom btns are a bit small. 
+everything works as expected
+responsive is on point!
+error checking and validation is also in place.
+beautiful UI!
